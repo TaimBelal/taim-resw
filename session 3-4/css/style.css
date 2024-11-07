@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding: 0px;  
+    font-family: 'Great Vibes', cursive; 
+    font-size: 25px;
+    word-spacing: 3px;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,.5)) , url('../images/background.jpg');
+    background-position: center;  
+    background-size: cover;
+    height: 70vh;
+    padding-bottom: 220px; 
+    color:#fff;
+}
+nav{
+background-color: rgba(0,0,0,.3);
+position:fixed;
+z-index: 100000;
+top: 0;
+right: 0px;
+left: 0px;
+padding: 10px 0px;
+}
+.container {
+    width:90%;
+    margin: auto;
+}
+.left-part {
+    padding-top: 20px;
+    float: left;
+    width: 60%;
+}
+nav .container .left-part h1{
+    letter-spacing: 5px;
+    padding-left: 20px;
+    display: inline-block;
+}
+nav .container .right-part{
+    width:40%;
+    float:right;
+    text-align: right;
+}
+ .right-part  .list{
+    list-style: none;
+}
+nav .container .right-part  .list li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav .right-part  .list li a {
+    text-decoration: none;
+    color: #fff;
+}
+.right-part  .list li a:hover {
+    color:#d65106;
+}
+.content{
+    width: 50%;
+    margin: auto;
+    transform: translateY(60%);
+     text-align: center;
+}
+header .content h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+button{
+    background-color: #d65106;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    border: none;
+    margin: 50px;
+}
+button:hover{
+    cursor: pointer;
+    color: #d65106;
+    background-color: #fff;
+}
+.section1{
+    padding: 100px 0;
+    background-color: bisque;
+    height: 55vh;
+}
+.section1 .container .text1{
+    width: 50%;
+    float: left;
+    transform: translateY(20%);
+}
+.text1 h2,.texth2{
+    color: rgb(255, 135, 92);
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.section1 .container .image{
+    width: 40%;
+    float: right;
+}
+.section1 .container .image img{
+    border-radius: 10px;
+    box-shadow: 2px 6px 6px rgb(173,163,148);
+}
+.section2{
+    background-color: black;
+    color: #fff;
+    height: 55vh;
+    padding: 80px 0;
+}
+.section2 .container .image{
+    width: 30%;
+    float: left;
+}
+.section2 .container .text{
+    float: right;
+    width: 50%;
+    transform: translateY(20%);
+}
